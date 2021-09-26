@@ -1,1 +1,1 @@
-# BLAKE2S128sum
+# BLAKE2s128sum
