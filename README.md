@@ -1,5 +1,5 @@
 # BLAKE2s128sum
-## DISCLAIMER: 
+### DISCLAIMER: 
 <pre>
   This program is provided as is.
   There are no claims made that it will work, not cause your pc problems, etc etc.
