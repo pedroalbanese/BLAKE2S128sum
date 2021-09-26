@@ -25,7 +25,8 @@
   -r    Process directories recursively.
   -t string
         Target file/wildcard to generate hashsum list.
-  -v    Verbose mode. (The exit code is always 0 in this mode)
+  -v    Verbose mode. (The exit code is always 0 in this mode)</pre>
+  
 ## License
 
 This project is licensed under the ISC License.
