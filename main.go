@@ -15,12 +15,11 @@ import (
 )
 
 var (
-	check = flag.String("c", "", "Check hashsum file.")
-	key = flag.String("k", "null", "Key.")
-	bits = flag.Int("b", 128, "Bits: 128 and 256.")
+	check     = flag.String("c", "", "Check hashsum file.")
+	key       = flag.String("k", "null", "Key.")
 	recursive = flag.Bool("r", false, "Process directories recursively.")
-	target = flag.String("t", "", "Target file/wildcard to generate hashsum list.")
-	verbose = flag.Bool("v", false, "Verbose mode. (The exit code is always 0 in this mode)")
+	target    = flag.String("t", "", "Target file/wildcard to generate hashsum list.")
+	verbose   = flag.Bool("v", false, "Verbose mode. (The exit code is always 0 in this mode)")
 )
 
 func main() {
