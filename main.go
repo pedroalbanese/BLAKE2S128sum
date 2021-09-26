@@ -26,7 +26,7 @@ func main() {
 	flag.Parse()
 
 	if len(os.Args) < 2 {
-		fmt.Println("BLAKE2b Hashsum Tool - ALBANESE Lab (c) 2020-2021\n")
+		fmt.Println("BLAKE2s128 Hashsum Tool - ALBANESE Lab (c) 2020-2021\n")
 		fmt.Println("Usage of", os.Args[0]+":")
 		fmt.Printf("%s [-v] [-b N] [-c <hash.ext>] [-r] -t <file.ext>\n\n", os.Args[0])
 		flag.PrintDefaults()
